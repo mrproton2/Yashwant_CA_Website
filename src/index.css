@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* 🌟 Define your custom theme (Tailwind v4) */
+@theme {
+  /* Colors */
+  --color-primary: #012A4A;        /* Deep blue */
+  --color-primaryLight: #014F86;   /* Light blue */
+  --color-accent: #FFD166;         /* Gold */
+  --color-dark: #0D1B2A;
+  --color-light: #F8F9FA;
+
+  /* Background image (add your file here) */
+  --background-main: url('/src/assets/bg-main.jpg');
+}
+
+/* GLOBAL STYLES */
+html, body, #root { 
+  height: 100%; 
+}
+
+/* Apply background to entire website */
+body { 
+  background-image: var(--background-main);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;       /* beautiful, stable background */
+  
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+}
+
+a { 
+  text-decoration: none; 
+}
