@@ -48,7 +48,8 @@ export default function Header() {
               </button>
 
               {servicesOpen && (
-                <div className="absolute right-0 mt-3 w-96 bg-white text-dark rounded-lg shadow-xl ring-1 ring-black ring-opacity-10 p-4 max-h-72 overflow-auto z-50">
+                <div className="absolute left-0 mt-1 pt-3 w-96 bg-white text-dark rounded-lg shadow-xl ring-1 ring-black ring-opacity-10 p-4 max-h-72 overflow-auto z-50"
+  >
 
                   {SERVICES.map(cat => (
                     <div key={cat.id} className="mb-4 last:mb-0">
