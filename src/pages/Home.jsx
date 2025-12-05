@@ -14,7 +14,8 @@ export default function Home() {
             </p>
             <div className="flex gap-3">
               <Link to="/services" className="px-4 py-2 bg-blue-900 text-white rounded hover:bg-blue-800">Our Services</Link>
-              <Link to="/contact" className="px-4 py-2 border rounded hover:bg-slate-50">Contact Us</Link>
+              <Link  className="px-4 py-2 border rounded hover:bg-slate-50">Contact Us</Link>
+               {/* <Link to="/contact" className="px-4 py-2 border rounded hover:bg-slate-50">Contact Us</Link> */}
             </div>
           </div>
 
