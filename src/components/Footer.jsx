@@ -21,7 +21,7 @@ export default function Footer() {
             📞{" "}
             <a
               href="tel:+918286956020"
-              className="font-medium underline hover:text-white"
+              className="font-medium underline hover:text-white cursor-pointer"
             >
               +91 8286956020
             </a>
