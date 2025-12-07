@@ -17,10 +17,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",      // ⭐ Replace with your EmailJS Service ID
-        "YOUR_TEMPLATE_ID",     // ⭐ Replace with your EmailJS Template ID
+        "service_z3j30zq",      // ⭐ Replace with your EmailJS Service ID
+        "template_tnl0031",     // ⭐ Replace with your EmailJS Template ID
         formRef.current,
-        "YOUR_PUBLIC_KEY"       // ⭐ Replace with your EmailJS Public Key
+        "yjF_WVdDlTwyukK7D"       // ⭐ Replace with your EmailJS Public Key
       )
       .then(
         () => {
